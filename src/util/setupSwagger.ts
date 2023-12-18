@@ -12,7 +12,7 @@ export function setupSwagger(app: INestApplication): void {
     .setDescription(
       `
       해당 Docs는 Swagger를 사용해 작성되었습니다.
-      BASE URL: https://server-reading-talk.koyeb.app
+      BASE URL: https://api-todok.koyeb.app
     `,
     )
     .setVersion('1.0.0')
